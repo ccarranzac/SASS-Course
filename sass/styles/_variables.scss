@@ -1,0 +1,16 @@
+$global: Arial;
+$primary: crimson;
+
+h1 {
+  font-family: $global;
+}
+
+body {
+  $global: cursive !global;
+  $font: 2rem;
+  font-family: $global;
+
+  h1 {
+    font-size: $font;
+  }
+}
