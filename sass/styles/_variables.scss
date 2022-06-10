@@ -1,16 +1,10 @@
-$global: Arial;
-$primary: crimson;
+$size: 16 * 4;
+$primary: purple;
 
-h1 {
-  font-family: $global;
+.title {
+  font-size: $size * 1em;
 }
 
-body {
-  $global: cursive !global;
-  $font: 2rem;
-  font-family: $global;
-
-  h1 {
-    font-size: $font;
-  }
+:root {
+  --primary: #{primary};
 }

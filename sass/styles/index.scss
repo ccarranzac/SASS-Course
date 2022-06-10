@@ -1,5 +1,5 @@
 @use "./variables";
 
-body {
-  color: variables.$primary;
+.title {
+  color: var(--primary);
 }
